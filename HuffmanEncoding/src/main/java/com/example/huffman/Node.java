@@ -1,4 +1,5 @@
 package com.example.huffman;
+
 public class Node {
     public int frequency;
     public char character;

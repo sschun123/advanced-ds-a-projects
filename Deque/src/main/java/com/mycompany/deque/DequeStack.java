@@ -1,4 +1,4 @@
-package Deque.src.main.java.com.mycompany.deque;
+package com.mycompany.deque;
 
 public class DequeStack {
     private int max;

@@ -1,24 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package Deque.src.main.java.com.mycompany.deque;
+package com.mycompany.deque;
 
-/**
- *
- * @author juneja_u
- */
 public class NewMain {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Reverser r = new Reverser("cat");
-        // System.out.println(r.reverse());
-        // BracketChecker b = new BracketChecker("a[]]");
-        // b.check();
-
         Deque dq = new Deque(4);
         dq.insertLeft(10);
         dq.insertLeft(20);

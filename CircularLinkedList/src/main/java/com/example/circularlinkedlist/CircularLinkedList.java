@@ -1,4 +1,4 @@
-package CircularLinkedList.src.main.java.com.example.circularlinkedlist;
+package com.example.circularlinkedlist;
 
 public class CircularLinkedList 
 {
