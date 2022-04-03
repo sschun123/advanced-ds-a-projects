@@ -4,14 +4,14 @@ package com.example.huffman;
  * Hello world!
  *
  */
-public class HuffmanTree 
+public class Huffman 
 {
     public Node root;
     private FrequencyLinkedList codeTable; 
 
     public static void main( String[] args )
     {
-        HuffmanTree h = new HuffmanTree();
+        Huffman h = new Huffman();
         String s = "Huffman encoding encodes a string into binary representations whose length corresponds to its frequency in the string.";
 
         String encoded = h.encode(s);
@@ -29,7 +29,7 @@ public class HuffmanTree
         // Create a Huffman tree
         Node hTree = createHuffmanTree(str);
         System.out.println("\nIN ORDER TRAVERSAL OF HUFFMAN TREE");
-        HuffmanTree.inorder(hTree);
+        Huffman.inorder(hTree);
         // Build Huffman codes using the Huffman tree and codeTable.
         buildHuffmanCodes(hTree, "");
         System.out.println("\nCODE TABLE");
